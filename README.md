@@ -10,7 +10,7 @@
       Live Link
     </a>
     <span> | </span>
-    <a href="https://legacy.devchallenges.io/challenges/gcbWLxG6wdennelX7b8I">
+    <a href="https://web.archive.org/web/20240526045248/https://legacy.devchallenges.io/challenges/gcbWLxG6wdennelX7b8I">
       Challenge
     </a>
   </h3>
@@ -25,10 +25,15 @@
 
 ## Overview
 
-![](my-gallery-mobile.png)
-![](my-gallery-desktop.png)
+![Mobile](my-gallery-mobile.png)
 
-Design concept has accessibility contrast problems.  
+***
+
+![Desktop](my-gallery-desktop.png)
+
+***
+
+Note: Design concept has accessibility contrast problems.  
 
 ### Built With
 
@@ -37,8 +42,7 @@ Design concept has accessibility contrast problems.
 
 ## Features
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://legacy.devchallenges.io/challenges/gcbWLxG6wdennelX7b8I) was to build an application to complete the given user stories.
-
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://web.archive.org/web/20240526045248/https://legacy.devchallenges.io/challenges/gcbWLxG6wdennelX7b8I) was to build an application to complete the given user stories. **Note**: The previous design document may be incomplete, as you need to find an archived version of the challenge as all `legacy` challenges have had their documentation removed from DevChallenges.
 
 ## Useful Resources
 

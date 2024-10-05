@@ -17,7 +17,7 @@ dd {
   margin: 0;
 }
 
-ul, 
+ul,
 ol {
   list-style: none;
 }
@@ -52,9 +52,9 @@ select {
 
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
-   scroll-behavior: auto;
+    scroll-behavior: auto;
   }
-  
+
   *,
   *::before,
   *::after {
@@ -70,99 +70,99 @@ main {
 }
 
 .profile-section {
-    text-align: center;
+  text-align: center;
 }
 
 .profile-photo-img {
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
 }
 
 h2 {
-    font-size: 20px;
-    color: gray;
+  font-size: 20px;
+  color: gray;
 }
 
 dd {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 dl {
-    background: lightgray;
-    width: 100px;
-    height: 50px;
-    border-radius: 10px;
+  background: lightgray;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
 }
 
 .profile-section-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 105px));
-    justify-content: center;
-    align-items: center;
-    margin-block: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 105px));
+  justify-content: center;
+  align-items: center;
+  margin-block: 20px;
 }
 
 .image-grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(75px, 1fr));
-    justify-content: center;
-    align-items: center;
-    margin: 50px auto;
-    gap: 10px;
-    padding: 0 5px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(75px, 1fr));
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  gap: 10px;
+  padding: 0 5px;
 }
 
 .image-grid img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .span2 {
-    grid-column: span 2;
+  grid-column: span 2;
 }
 
 .row2 {
-    grid-column: 3 / -1;
-    grid-row: 2 / 4;
-    width: 100%;
-    height: 100%;
+  grid-column: 3 / -1;
+  grid-row: 2 / 4;
+  width: 100%;
+  height: 100%;
 }
 
-@media (min-width: 700px){
-    .image-grid {
-        padding: 0 10% 50px;
-    }
+@media (min-width: 700px) {
+  .image-grid {
+    padding: 0 10% 50px;
+  }
 
-    .profile-photo-img {
-      width: 200px;
-      height: 200px;
-    }
+  .profile-photo-img {
+    width: 200px;
+    height: 200px;
+  }
 }
 
-@media (min-width: 2000px){
-    .profile-photo-img {
-      width: 400px;
-      height: 400px;
-    }
+@media (min-width: 2000px) {
+  .profile-photo-img {
+    width: 400px;
+    height: 400px;
+  }
 
-    h1 {
-      font-size: 42px;
-    }
+  h1 {
+    font-size: 42px;
+  }
 
-    h2 {
-      font-size: 32px;
-    }
+  h2 {
+    font-size: 32px;
+  }
 
-    .profile-section-grid {
-      grid-template-columns: repeat(auto-fit, minmax(50px, 200px));
-      gap: 50px;
-    }
+  .profile-section-grid {
+    grid-template-columns: repeat(auto-fit, minmax(50px, 200px));
+    gap: 50px;
+  }
 
-    dl {
-      width: 200px;
-      height: 75px;
-      font-size: 20px;
-    }
+  dl {
+    width: 200px;
+    height: 75px;
+    font-size: 20px;
+  }
 
 }
